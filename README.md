@@ -5,9 +5,9 @@
 ![alt text](https://github.com/framgia/infra-standards/blob/master/DevOps/IaC/image-repo/ansible.png)
 
 ## Invertory
-
-- [x] aws-bastion-hosts
-- [x] aws-front-gold-hosts
+- Get IP to run Ansible playbook.yml
+    - [x] aws-bastion-hosts
+    - [x] aws-front-gold-hosts
 
 ## Roles
 - **Bastion**
@@ -22,10 +22,11 @@
     - [ ] project-demo
 
 ## Vars
-- [x] bastion.yml
-- [x] front.yml
+- Get variable for playbook.yml
+    - [x] bastion.yml
+    - [x] front.yml
 
-## How to Run (dependence)
+## How to Run (Independence)
 - **Run on Basion**
     ```
     cd infra-standards/DevOps/IaC/ansible-base/
